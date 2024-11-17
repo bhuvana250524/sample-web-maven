@@ -7,7 +7,19 @@
     <artifactId>war</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+     <properties>
+		<jdk.version>1.8</jdk.version>
+		<spring.version>6.0.15</spring.version>
+		<junit.version>4.11</junit.version>
+		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://35.243.169.127:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>sonar</sonar.password> 
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+	</properties>
+         
     <dependencies>
         <!-- JAX-RS (for javax.ws.rs classes) -->
         <dependency>
