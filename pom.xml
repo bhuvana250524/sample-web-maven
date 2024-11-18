@@ -41,12 +41,12 @@
 
     <distributionManagement>
         <repository>
-            <id>nexus-releases</id>
+            <id>nexus</id>
             <name>Bhuvana Practice Release Repository</name>
             <url>http://34.47.224.148:8081/repository/maven-sample-repo/</url>
         </repository>
         <snapshotRepository>
-            <id>nexus-snapshots</id>
+            <id>nexus</id>
             <name>Bhuvana Practice Snapshot Repository</name>
             <url>http://34.47.224.148:8081/repository/maven-sample-snapshot/</url>
         </snapshotRepository>
