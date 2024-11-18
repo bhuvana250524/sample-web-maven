@@ -45,14 +45,10 @@
         <id>nexus</id>
         <url>http://34.47.224.148:8081/repository/maven-sample-snapshot/</url>
     </snapshotRepository>
-</distributionManagement>
-<version>1.0</version>
-<distributionManagement>
     <repository>
         <id>nexus</id>
         <url>http://34.47.224.148:8081/repository/maven-sample-repo/</url>
     </repository>
-</distributionManagement>
     <build>
         <plugins>
             <!-- Compiler Plugin -->
