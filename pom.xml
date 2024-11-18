@@ -37,6 +37,21 @@
 
         <!-- Additional dependencies for your project can go here -->
     </dependencies>
+    <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Bhuvana practise repository</name>
+	      <url>http://34.47.224.148:8081/repository/maven-sample-repo/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Bhuvana practise Snapshot Nexus Repository </name>
+	      <url>http://34.47.224.148:8081/repository/maven-sample-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
     <build>
         <plugins>
