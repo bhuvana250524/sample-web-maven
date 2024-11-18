@@ -39,19 +39,20 @@
         <!-- Add more dependencies as needed -->
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>Bhuvana Practice Release Repository</name>
-            <url>http://34.47.224.148:8081/repository/maven-sample-repo/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <name>Bhuvana Practice Snapshot Repository</name>
-            <url>http://34.47.224.148:8081/repository/maven-sample-snapshot/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
+   <version>1.0-SNAPSHOT</version>
+<distributionManagement>
+    <snapshotRepository>
+        <id>nexus</id>
+        <url>http://34.47.224.148:8081/repository/maven-sample-snapshot/</url>
+    </snapshotRepository>
+</distributionManagement>
+<version>1.0</version>
+<distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <url>http://34.47.224.148:8081/repository/maven-sample-repo/</url>
+    </repository>
+</distributionManagement>
     <build>
         <plugins>
             <!-- Compiler Plugin -->
