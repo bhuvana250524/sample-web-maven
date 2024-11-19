@@ -5,7 +5,7 @@
 
     <groupId>koddas.web</groupId>
     <artifactId>sample-maven-war</artifactId>
-    <version>1.0.1</version> <!-- This is the correct version tag for the project -->
+    <version>1.0.2</version> <!-- This is the correct version tag for the project -->
     <packaging>war</packaging>
 
     <properties>
